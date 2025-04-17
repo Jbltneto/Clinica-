@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Da Maromba</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+<body class="bg-green-100 font-sans">
+    <!-- Header -->
+    <header class="bg-green-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Clínica Da Maromba</h1>
+            <p class="mt-2 text-lg">Te deixando monstro</p>
+        </div>
+    </header>
+
+    <!-- Serviços -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-8">Nossos Serviços</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="trabalhando.png" alt="Atendimento Médico" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-medium">Atendimento Médico</h3>
+                    <p class="mt-2 text-gray-600">Consultas com especialistas em diversas áreas para cuidar da sua saúde de forma personalizada.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="tomografia.png" alt="Exames de Imagem" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-medium">Exames de Imagem e Laboratoriais</h3>
+                    <p class="mt-2 text-gray-600">Tecnologia de ponta para diagnósticos precisos, incluindo tomografia, ultrassom e análises clínicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-8">Nossa Equipe</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="terrycrews.png" alt="Dr. Terry Crews" class="w-40 h-40 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-medium">Dr. Terry Crews</h3>
+                    <p class="text-gray-600">Cardiologista</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="cariani.png" alt="Dr. Cariani" class="w-40 h-40 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-medium">Dr. Cariani</h3>
+                    <p class="text-gray-600">Nutricionista</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="colleman.png" alt="Dr. Coleman" class="w-40 h-40 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-medium">Dr. Coleman</h3>
+                    <p class="text-gray-600">Endocrinologista</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-center mb-8">Saiba Mais</h2>
+            <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+                <div>
+                    <div class="mb-4">
+                        <label for="nome" class="block text-gray-700 font-medium mb-2">Nome</label>
+                        <input type="text" id="nome" name="nome" class="w-full p-2 border rounded-md" placeholder="Seu nome" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">E-mail</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 border rounded-md" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="cidade" class="block text-gray-700 font-medium mb-2">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" class="w-full p-2 border rounded-md" placeholder="Sua cidade" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="estado" class="block text-gray-700 font-medium mb-2">Estado</label>
+                        <input type="text" id="estado" name="estado" class="w-full p-2 border rounded-md" placeholder="Seu estado" required>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Clínica Da Maromba. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
